@@ -17,7 +17,7 @@ public abstract class Account {
 	private double balance;
 
 	protected Account(AccountHolder accountHolder, Long accountNumber, int pin, double startingDeposit) {
-		// complete the constructor
+		this.accountHolder=accountHolder;
 	}
 
 	public AccountHolder getAccountHolder() {
